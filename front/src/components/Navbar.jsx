@@ -18,6 +18,10 @@ import 'aos/dist/aos.css';
 function Navbar() {
     const form = useRef();
 
+
+    // Email
+
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -30,6 +34,10 @@ function Navbar() {
             });
     };
 
+
+    // FUNCION DE NAV
+
+
     const [clicked, setClicked] = useState(false);
 
     const handleClick = () => {
@@ -39,10 +47,20 @@ function Navbar() {
         setClicked(!clicked);
     }
 
+
+    
+
+
     useEffect(() => {
+
+        // EFECTOS DE MOVIMIENTO
+
+
         AOS.init({
             duration: 800,
         });
+
+        // EFECTO DE ESCRITURA
 
         const options = {
             strings: [
@@ -103,7 +121,7 @@ function Navbar() {
             <div id="Proyectos" className={Styles.items}>
                 <h3 data-aos="fade-left" className={Styles.title2}>Proyectos</h3>
                 <div data-aos="fade-right" className={Styles.container3}>
-                    <p className={Styles.proyect}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus consequatur doloribus delectus repellendus aliquid eligendi unde velit. Qui est provident commodi itaque ex repudiandae quaerat rem libero cupiditate inventore. Reprehenderit?</p>
+                    <p className={Styles.proyect}>En desarrollo.</p>
                 </div>
             </div>
 
