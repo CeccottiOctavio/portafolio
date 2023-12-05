@@ -103,7 +103,7 @@ function Navbar() {
             <div id="SobreMi" className={Styles.items}>
                 <h2 data-aos="fade-left" className={Styles.title}>Sobre mi</h2>
                 <div data-aos="fade-right" className={Styles.container1}>
-                    <p className={Styles.paragraph1}>Soy Octavio, un apasionado programador front-end con base en Buenos Aires, Argentina. Mi mundo gira en torno al desarrollo de interfaces de usuario para aplicaciones web y sitios web. Me encanta la tecnología y estoy constantemente en busca de crecer en este emocionante campo. Siempre he sido un amante del diseño y la estética, lo que se refleja en mi capacidad para crear interfaces de usuario visualmente atractivas. Estoy comprometido con la mejora constante y la colaboración con otros profesionales para crear experiencias web excepcionales.</p>
+                    <p className={Styles.paragraph1}>Soy Octavio, un apasionado programador front-end con base en Barcelona. Mi mundo gira en torno al desarrollo de interfaces de usuario para aplicaciones web y sitios web. Me encanta la tecnología y estoy constantemente en busca de crecer en este emocionante campo. Siempre he sido un amante del diseño y la estética, lo que se refleja en mi capacidad para crear interfaces de usuario visualmente atractivas. Estoy comprometido con la mejora constante y la colaboración con otros profesionales para crear experiencias web excepcionales.</p>
                 </div>
             </div>
 
